@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0022)http://192.168.100.21/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Nexto</title>
+	
+	<link rel="icon" type="image/ico" href="http://192.168.100.21/img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="./Nexto_files/style.css">
+	<meta name="GENERATOR" content="MSHTML 8.00.7600.16625">
+	<script language="JavaScript" type="text/javascript" src="./Nexto_files/jscript.js.baixados" charset="utf-8"></script>
+	
+</head>
+<body class="width: 100%; height: 100%">
+		
+	<div class="mainpage_body">
+		
+		<div class="mainContainer" id="idMainContainer" style="display: block; margin-top: 110px;">
+			<div class="headerContainer">
+				<div style="width: auto; height: auto; display: flex; align-items: center; float: left; padding-left: 66px; padding-top: 30px;">
+					<img src="./Nexto_files/CompanyLogo.png" alt="" style="display: inline-block; width: 135px; height: 66px;">
+					<div style="background-color: #6F7071;opacity: 0.2;margin-left: 15px;margin-right: 15px;width: 2px;height: 50px;border-radius: 3px;"></div>
+					<a id="idSerieTitle" class="ProductSerieTitle">NX</a>
+					<a id="idNameTitle" class="ProductNameTitle">3035</a>
+				</div>
+				<!-- Language selection container -->
+				<div class="languageContainer">
+					<span title="">
+						<a id="idLanguageENText" class="languageLink" href="javascript:forceLanguage(&#39;en&#39;);" style="color: rgb(154, 155, 156);">&nbsp;English&nbsp;</a>|
+						<a id="idLanguagePTText" class="languageLink" href="javascript:forceLanguage(&#39;pt&#39;);" style="color: rgb(88, 89, 91);">&nbsp;Português&nbsp;</a>
+					</span>
+				</div>				
+				<!-- Refresh page container -->
+				<div id="idrefreshPageContainer" class="refreshPageContainer" style="display: flex;">
+					<span class="refreshPageText" id="idRefreshText" style="display: block;">Informações de</span>
+					<span class="refreshPageDateText" id="idRefreshDateText" style="display: block;">2025-04-29 19:35:24 (UTC)</span>
+					<div id="idrefreshPageDiv" class="ButtonWithIconEnable" onclick="switchTo(&#39;NextoDiag.cgi?info=overview&#39;)" style="display: block;">
+						<img src="./Nexto_files/RefreshIcon.png">
+						<input id="idBtnRefresh" type="button" value="Atualizar">
+					</div>
+					<div id="idLogoutDiv" class="ButtonWithIconEnable" onclick="LogoutFromManagement();" style="display: none;">
+						<img src="./Nexto_files/LogoutIcon.png">
+						<input id="idBtnLogout" type="button" value="Sair">
+					</div>
+				</div>
+			</div>			
+			<div class="contentContainer">
+				<!-- Navigation container -->
+				<div class="navigationContainer">
+					<!-- Tab 1 -->
+						<div class="tabCell" id="tabCell1" onclick="tabChange(&#39;1&#39;); switchTo(&#39;NextoDiag.cgi?info=overview&#39;);" style="display: none;">
+							<div class="superMenuTabs" id="idCpuOverviewTab1">
+								<a id="idCpuOverviewTab1Text">Informações Gerais</a>
+								<script language="Javascript" type="text/javascript">writeLangTextId('cpuOverviewTab', 'idCpuOverviewTab1Text');</script>
+							</div>
+						</div>
+						<div class="tabCell" id="tabCell1Clicked" style="display: block;" onclick="tabChange(&#39;1&#39;); switchTo(&#39;NextoDiag.cgi?info=overview&#39;);">
+							<div class="superMenuTabsClicked" id="idCpuOverviewTab2">
+								<a id="idCpuOverviewTab2Text">Informações Gerais</a>
+								<script language="Javascript" type="text/javascript">writeLangTextId('cpuOverviewTab', 'idCpuOverviewTab2Text');</script>
+							</div>
+						</div>
+					<!-- /a -->
+					<!-- Tab 2 -->
+						<div class="tabCell" id="tabCell2" onclick="tabChange(&#39;2&#39;); switchTo(&#39;bus_information.html&#39;);" style="display: block;">
+							<div class="superMenuTabs" id="idsysOverviewTab1">
+								<a id="idsysOverviewTab1Text">Informações do Barramento</a>
+								<script language="Javascript" type="text/javascript">writeLangTextId('sysOverviewTab', 'idsysOverviewTab1Text');</script>
+							</div>
+						</div>
+						<div class="tabCell" id="tabCell2Clicked" style="display: none;" onclick="tabChange(&#39;2&#39;); switchTo(&#39;bus_information.html&#39;);">
+							<div class="superMenuTabsClicked" id="idsysOverviewTab2">
+								<a id="idsysOverviewTab2Text">Informações do Barramento</a>
+								<script language="Javascript" type="text/javascript">writeLangTextId('sysOverviewTab', 'idsysOverviewTab2Text');</script>
+							</div>
+						</div>
+					<!-- /a -->
+					<!-- Tab 4 -->
+						<div class="tabCell" id="tabCell4" style="display: none;" onclick="tabChange(&#39;4&#39;); switchTo(&#39;NextoDiag.cgi?info=redundancy-status&#39;);">
+							<div class="superMenuTabs" id="idRedundancyDiagTab1">
+								<a id="idRedundancyDiagTab1Text">Informações de Redundância</a>
+								<script type="text/javascript">writeLangTextId('redundancyDiagsTab','idRedundancyDiagTab1Text');</script>
+							</div>
+						</div>
+						<div class="tabCell" id="tabCell4Clicked" style="display: none;" onclick="tabChange(&#39;4&#39;); switchTo(&#39;NextoDiag.cgi?info=redundancy-status&#39;);">
+							<div class="superMenuTabsClicked" id="idRedundancyDiagTab2">
+								<a id="idRedundancyDiagTab2Text">Informações de Redundância</a>
+								<script type="text/javascript">writeLangTextId('redundancyDiagsTab','idRedundancyDiagTab2Text');</script>
+							</div>
+						</div>
+					<!-- /a -->
+					<!-- Tab 3 -->
+						<div class="tabCell" id="tabCell3" onclick="tabChange(&#39;3&#39;); switchTo(&#39;manager.html&#39;);">
+							<div class="superMenuTabs" id="idGeneralConfigTab1">
+								<a id="idGeneralConfigTab1Text">Gerenciamento</a>
+								<script type="text/javascript">writeLangTextId('managementTab','idGeneralConfigTab1Text');</script>
+							</div>
+						</div>
+						<div class="tabCell" id="tabCell3Clicked" style="display: none;" onclick="tabChange(&#39;3&#39;); switchTo(&#39;manager.html&#39;);">
+							<div class="superMenuTabsClicked" id="idGeneralConfigTab2">
+								<a id="idGeneralConfigTab2Text">Gerenciamento</a>
+								<script type="text/javascript">writeLangTextId('managementTab','idGeneralConfigTab2Text');</script>
+							</div>
+						</div>
+					<!-- /a -->
+					<!-- Tab 5 -->
+						<div class="tabCell" id="tabCell5" style="display: none;" onclick="tabChange(&#39;5&#39;); switchTo(&#39;NextoDiag.cgi?info=watch-vars&amp;list=details&#39;);">
+							<div class="superMenuTabs" id="idWatchVariableTab1">
+								<a id="idWatchVariableTab1Text">Monitorar Variáveis</a>
+								<script type="text/javascript">writeLangTextId('watchvarTab','idWatchVariableTab1Text');</script>
+							</div>
+						</div>
+						<div class="tabCell" id="tabCell5Clicked" style="display: none;" onclick="tabChange(&#39;5&#39;); switchTo(&#39;NextoDiag.cgi?info=watch-vars&amp;list=details&#39;);">
+							<div class="superMenuTabsClicked" id="idWatchVariableTab2">
+								<a id="idWatchVariableTab2Text">Monitorar Variáveis</a>
+								<script type="text/javascript">writeLangTextId('watchvarTab','idWatchVariableTab2Text');</script>
+							</div>
+						</div>
+					<!-- /a -->
+				</div>
+
+				<script type="text/javascript">tabChange("1");</script>
+
+				<iframe id="contentIFrameId" class="contentIFrame" marginheight="0" src="./Nexto_files/NextoDiag.html" frameborder="0" name="contentIFrameName" marginwidth="0" scrolling="auto">
+						<p>Your Browser cannot show frames</p>
+				</iframe>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		loadLanguage(1);
+		document.getElementById("idBtnRefresh").value = getLangText("msgButtonRefresh");
+		document.getElementById("idBtnLogout").value = getLangText("logout");
+	</script>
+
+</body></html>
